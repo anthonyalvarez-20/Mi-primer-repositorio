@@ -16,7 +16,7 @@ const crearArchivo = (base,listar = false,limite = 10)=>{
             if(listar){
             (console.log(consola));
             }
-            fs.writeFileSync(`./salida/tabla del ${base}`,salida);
+            fs.writeFileSync(`./salida/tabla del ${base}.txt`,salida);
             resolve(`tabla del ${base}`);
             
         })
